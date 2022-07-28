@@ -1,3 +1,4 @@
+import 'package:airline_app/screens/ticket_view.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -89,6 +90,8 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
+          const Gap(15),
+          TicketView(),
         ],
       ),
     );
